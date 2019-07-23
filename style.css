@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Flavors&display=swap');
+html { font-size: 1rem; }
+
+@media (min-width: 576px) {
+    html { font-size: 1.25rem; }
+}
+@media (min-width: 768px) {
+    html { font-size: 1.5rem; }
+}
+@media (min-width: 992px) {
+    html { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    html { font-size: 2rem; }
+}
 .cf {
 font-family: 'Flavors',
 cursive;
